@@ -1,15 +1,35 @@
 Explain about Use case Testing with example
 
 USE CASE:
-    Use case testing is a black-box testing technique that validates a system's functionality by creating test cases based on use cases, which describe how a user ("actor") interacts with the system to achieve a specific 
-goal. It focuses on end-to-end transactions, covering both the main success scenario and potential extensions, or error conditions, to identify gaps that might be missed in component testing. 
+    Use case testing is a black-box testing technique that validates a system's functionality by creating test cases based on use cases, 
+which describe how a user ("actor") interacts with the system to achieve a specific goal. 
+It focuses on end-to-end transactions, covering both the main success scenario and potential extensions, or error conditions, to identify gaps that might be missed in component testing. 
 
 KEY ASPECTS OF USE CASE TESTING
 
-Based on use cases: It uses use case diagrams or documents, which outline user goals and system responses, to derive test cases. 
-Focuses on user perspective: It views the system from the user's point of view, ensuring the software behaves as expected in real-world scenarios. 
-End-to-end coverage: It tests the entire system transaction by transaction, from start to finish, unlike component testing. 
-Verifies functional requirements: It helps ensure that the system's functional requirements are met and that the software works correctly to support the user's objectives. 
-Includes positive and negative scenarios: Test cases are developed for both the primary success paths and alternative or error paths (e.g., invalid login credentials). 
-Supports various testing levels: The test cases derived from use cases are used for system testing and user acceptance testing (UAT).
+Based on use cases: 
+    It uses use case diagrams or documents, which outline user goals and system responses, to derive test cases. 
+
+Focuses on user perspective: 
+    It views the system from the user's point of view, ensuring the software behaves as expected in real-world scenarios. 
+
+End-to-end coverage: 
+    It tests the entire system transaction by transaction, from start to finish, unlike component testing. 
+
+Verifies functional requirements: 
+    It helps ensure that the system's functional requirements are met and that the software works correctly to support the user's objectives. 
+
+Includes positive and negative scenarios: 
+    Test cases are developed for both the primary success paths and alternative or error paths (e.g., invalid login credentials). 
+
+Supports various testing levels: 
+    The test cases derived from use cases are used for system testing and user acceptance testing (UAT).
+
+
+
+
+
+
+
+
 
