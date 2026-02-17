@@ -26,8 +26,64 @@ Supports various testing levels:
     The test cases derived from use cases are used for system testing and user acceptance testing (UAT).
 
 
+2. Draw a State Transition Diagram and State Transition Table for Product search and Add to cart
 
+State Transition Diagram :
 
+        +----------------+
+        |    Start       |
+        +----------------+
+                |
+                v
+        +----------------+
+        |   Home Page    |
+        +----------------+
+                |
+      (Enter Search Query)
+                |
+                v
+        +----------------+
+        |   Searching    |
+        +----------------+
+                |
+        (Results Found)
+                |
+                v
+        +----------------+
+        | Search Results |
+        +----------------+
+                |
+        (Select Product)
+                |
+                v
+        +----------------+
+        | Product Detail |
+        +----------------+
+                |
+          (Add to Cart)
+                |
+                v
+        +----------------+
+        |   Cart Updated |
+        +----------------+
+                |
+            (Checkout)
+                |
+                v
+        +----------------+
+        |      End       |
+        +----------------+
+
+State Transition Table
+
+| Current State  | Input/Event        | Next State     | Output/Action        |
+| -------------- | ------------------ | -------------- | -------------------- |
+| Start          | Open website       | Home Page      | Display home page    |
+| Home Page      | Enter search query | Searching      | Process search       |
+| Searching      | Results found      | Search Results | Display products     |
+| Search Results | Select product     | Product Detail | Show product details |
+| Product Detail | Add to cart        | Cart Updated   | Item added to cart   |
+| Cart Updated   | Checkout           | End            | Proceed to payment   |
 
 
 
